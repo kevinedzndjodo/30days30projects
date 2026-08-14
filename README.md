@@ -20,9 +20,9 @@ I am building **30 web projects in 30 days** to improve my front-end development
 ## Progress
 
 * [x] Day 01 — Simple Calculator
-* [ ] Day 02 — Color Generator
-* [ ] Day 03 — Digital Clock
-* [ ] Day 04 — Counter App
+* [x] Day 02 — Color Generator
+* [x] Day 03 — Digital Clock
+* [x] Day 04 — Counter App
 * [ ] Day 05 — Todo App
 * [ ] Day 06 — Password Generator
 * [ ] Day 07 — Weather App
