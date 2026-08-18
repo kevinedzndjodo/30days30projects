@@ -1,0 +1,66 @@
+<\!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <div class="card">
+        <p class="eyebrow">Security Tool</p>
+        <h1>Password Generator</h1>
+
+        <div class="password-box">
+          <input
+            type="text"
+            id="passwordOutput"
+            readonly
+            aria-label="Generated password"
+            value="P@ssw0rd!"
+          />
+          <button id="copyBtn" class="secondary-btn" type="button">Copy</button>
+        </div>
+
+        <div class="controls">
+          <div class="label-row">
+            <label for="lengthRange">Password Length</label>
+            <span id="lengthValue">14</span>
+          </div>
+          <input id="lengthRange" type="range" min="8" max="30" value="14" />
+        </div>
+
+        <div class="options">
+          <label class="check-item">
+            <input type="checkbox" id="includeUppercase" checked />
+            <span>Uppercase</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" id="includeLowercase" checked />
+            <span>Lowercase</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" id="includeNumbers" checked />
+            <span>Numbers</span>
+          </label>
+          <label class="check-item">
+            <input type="checkbox" id="includeSymbols" checked />
+            <span>Symbols</span>
+          </label>
+        </div>
+
+        <div class="strength-box">
+          <span>Strength</span>
+          <strong id="strengthText">Strong</strong>
+        </div>
+
+        <button id="generateBtn" class="primary-btn" type="button">
+          Generate Password
+        </button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
